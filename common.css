@@ -31,6 +31,7 @@
 .fs38{font-size: 38px;}
 .fs39{font-size: 39px;}
 .fs40{font-size: 40px;}
+.fs75{font-size: 75px;}
 
 .pl15{padding-left: 15px;}
 .pl20{padding-left: 20px;}
@@ -76,17 +77,23 @@
 .mb40{margin-bottom: 40px;}
 .mb45{margin-bottom: 45px;}
 .mb50{margin-bottom: 50px;}
-
-.mlr{
-	margin-left: auto;
-	margin-right: auto;
-}
+.mlr{margin-left: auto;margin-right: auto;}
 .w100{width: 100%;}
-.lh15{
-	line-height: 1.7em;
+.lh17{line-height: 1.7em;}
+.border_b{border-bottom: 3px solid rgba(0, 230, 137, 1);}
+
+.subpage_mv{
+	width: 100%;
+	height: 500px;
+	margin-top: 73px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-image: url("image/sample-bg2.jpg");
 }
-.border_b{
-	border-bottom: 3px solid rgba(0, 230, 137, 1);
+.subpage_mv_headline{
+	font-size: 75px;
 }
 .column_two{
 	display: flex;
