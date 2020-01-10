@@ -90,6 +90,9 @@
 	justify-content: center;
 	align-items: center;
 
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
 	background-image: url("image/sample-bg2.jpg");
 }
 .subpage_mv_headline{
@@ -175,6 +178,9 @@
 	width: 100%;
 	height: 0;
 	padding-top: 150%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
 	background-image: url('image/sample-bg.jpg');
 	position: relative;
 }
@@ -182,6 +188,9 @@
 	width: 100%;
 	height: 0;
 	padding-top: 100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
 	background-image: url('image/sample-bg.jpg');
 	position: relative;
 }
@@ -193,6 +202,9 @@
 	left: 50%;
 	transform: translateX(-50%);
 	
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
 	background-image: url('image/sample-bg2.jpg');
 	opacity: 0;
 
