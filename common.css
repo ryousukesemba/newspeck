@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+		font-family: 'ｍｓ ｐ明朝','ms pmincho','ヒラギノ明朝 pro w3','hiragino mincho pro',serif;
+		box-sizing: border-box;
+}
+
+.fs20{font-size: 20px;}
+.fs21{font-size: 21px;}
+.fs22{font-size: 22px;}
+.fs23{font-size: 23px;}
+.fs24{font-size: 24px;}
+.fs25{font-size: 25px;}
+.fs26{font-size: 26px;}
+.fs27{font-size: 27px;}
+.fs28{font-size: 28px;}
+.fs29{font-size: 29px;}
+.fs30{font-size: 30px;}
+.fs31{font-size: 31px;}
+.fs32{font-size: 32px;}
+.fs33{font-size: 33px;}
+.fs34{font-size: 34px;}
+.fs35{font-size: 35px;}
+.fs36{font-size: 36px;}
+.fs37{font-size: 37px;}
+.fs38{font-size: 38px;}
+.fs39{font-size: 39px;}
+.fs40{font-size: 40px;}
+
+.pl15{padding-left: 15px;}
+.pl20{padding-left: 20px;}
+.pl25{padding-left: 25px;}
+.pl30{padding-left: 30px;}
+.pl35{padding-left: 35px;}
+.pl40{padding-left: 40px;}
+.pl45{padding-left: 45px;}
+.pl50{padding-left: 50px;}
+
+.pr15{padding-right: 15px;}
+.pr20{padding-right: 20px;}
+.pr25{padding-right: 25px;}
+.pr30{padding-right: 30px;}
+.pr35{padding-right: 35px;}
+.pr40{padding-right: 40px;}
+.pr45{padding-right: 45px;}
+.pr50{padding-right: 50px;}
+
+.pb15{padding-bottom: 15px;}
+.pb20{padding-bottom: 20px;}
+.pb25{padding-bottom: 25px;}
+.pb30{padding-bottom: 30px;}
+.pb35{padding-bottom: 35px;}
+.pb40{padding-bottom: 40px;}
+.pb45{padding-bottom: 45px;}
+.pb50{padding-bottom: 50px;}
+
+.mb15{margin-bottom: 15px;}
+.mb20{margin-bottom: 20px;}
+.mb25{margin-bottom: 25px;}
+.mb30{margin-bottom: 30px;}
+.mb35{margin-bottom: 35px;}
+.mb40{margin-bottom: 40px;}
+.mb45{margin-bottom: 45px;}
+.mb50{margin-bottom: 50px;}
+
+.mlr{
+	margin-left: auto;
+	margin-right: auto;
+}
+.w100{width: 100%;}
+.lh15{
+	line-height: 1.7em;
+}
+.border_b{
+	border-bottom: 3px solid rgba(0, 230, 137, 1);
+}
+.column_two{
+	display: flex;
+	max-width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.column_left{
+	width: 35%;
+}
+.column_right{
+	width: 65%;
+}
+
+.image_item{
+	background: #000;
+	width: 100%;
+	height: 0;
+	padding-top: 60%;
+}
+
+/*# sourceMappingURL=common.css.map */
+.HeadLine_wrap{
+	display: flex;
+	flex-direction: column;
+}
+.HeadLine{
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	border-left: 8px solid rgba(0, 230, 137, 1);
+}
+.HeadLine_h2{
+	font-weight: bold;
+	width: 100%;
+}
+.HeadLine_p{
+	width: 100%;
+	text-align: center;
+}
+.t_center{
+	text-align: center;
+}
+.t_right{
+	text-align: right;
+}
+.i_block{
+	display: inline-block;
+}
