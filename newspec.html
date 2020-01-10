@@ -4,11 +4,12 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="common.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 	<h1>大見出しコンポーネント</h1>
 	<div class="HeadLine_wrap">
-		<div class = "HeadLine">
+		<div class = "HeadLine pl40">
 			<h2 class = "HeadLine_h2 fs40">タイトルタイトル</h2>
 			<p class = "HeadLine_p fs20">-　サブタイトル　-</p>
 		</div>
@@ -74,5 +75,201 @@
 		だからこそ、勇気を出して自分の殻を破り新しい能力や仕組み、生き抜く手段に挑戦して頂きたいのです。<br>
 		自分の人生を自らの力で鮮やかなものにし、将来の自分にワクワクできるよう今を大切に過ごしてください。
 	</p>
+
+	<h1>3カラム(サービス)</h1>
+	<div class="column_three mlr">
+		<div class="column_item">
+			<div class="column_imgBox">
+				<div class="column_imgBox_text fs16 t_center pt30">
+					1対多数による研修。<br>
+					内容は受講生の質問によって構成され<br>
+					毎回内容は変化します。<br>
+					多くの気付きや学びを得られ、<br>
+					ビジネススキルに更に<br>
+					磨きをかけることが可能となります<br>
+				</div>
+				<div class="column_imgBox_headline fs20 fw_b">​
+					レスポンススクール<br>スタイル
+					<div class="column_imgBox_headline_border"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="column_item">
+			<div class="column_imgBox">
+				<div class="column_imgBox_text fs16 t_center pt30">
+					1対多数による研修。<br>
+					内容は受講生の質問によって構成され<br>
+					毎回内容は変化します。<br>
+					多くの気付きや学びを得られ、<br>
+					ビジネススキルに更に<br>
+					磨きをかけることが可能となります<br>
+				</div>
+				<div class="column_imgBox_headline fs20 fw_b">​
+					レスポンススクール<br>スタイル
+					<div class="column_imgBox_headline_border"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="column_item">
+			<div class="column_imgBox">
+				<div class="column_imgBox_text fs16 t_center pt30">
+					1対多数による研修。<br>
+					内容は受講生の質問によって構成され<br>
+					毎回内容は変化します。<br>
+					多くの気付きや学びを得られ、<br>
+					ビジネススキルに更に<br>
+					磨きをかけることが可能となります<br>
+				</div>
+				<div class="column_imgBox_headline fs20 fw_b">​
+					レスポンススクール<br>スタイル
+					<div class="column_imgBox_headline_border"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<h1>3カラム(TOP)</h1>
+	<div class="column_three mlr">
+		<div class="column_three_item">
+			<div class="column_three_imgBox">
+				<div class="column_three_imgBox_text fs16 t_center pt30">
+					1対多数による研修。<br>
+					内容は受講生の質問によって構成され<br>
+					毎回内容は変化します。<br>
+					多くの気付きや学びを得られ、<br>
+					ビジネススキルに更に<br>
+					磨きをかけることが可能となります<br>
+				</div>
+				<div class="column_three_headline fs20 fw_b">​
+					<h2 class = "HeadLine_h2 fs40">COMPANY</h2>
+					<p class = "HeadLine_p fs20">-社名の由来-</p>
+				</div>
+				<div class="column_border">​
+				</div>
+			</div>
+		</div>
+
+		<div class="column_three_item">
+			<div class="column_three_imgBox">
+				<div class="column_three_imgBox_text fs16 t_center pt30">
+					1対多数による研修。<br>
+					内容は受講生の質問によって構成され<br>
+					毎回内容は変化します。<br>
+					多くの気付きや学びを得られ、<br>
+					ビジネススキルに更に<br>
+					磨きをかけることが可能となります<br>
+				</div>
+				<div class="column_three_headline fs20 fw_b">​
+					<h2 class = "HeadLine_h2 fs40">COMPANY</h2>
+					<p class = "HeadLine_p fs20">-社名の由来-</p>
+				</div>
+				<div class="column_border">​
+				</div>
+			</div>
+		</div>
+
+		<div class="column_three_item">
+			<div class="column_three_imgBox">
+				<div class="column_three_imgBox_text fs16 t_center pt30">
+					1対多数による研修。<br>
+					内容は受講生の質問によって構成され<br>
+					毎回内容は変化します。<br>
+					多くの気付きや学びを得られ、<br>
+					ビジネススキルに更に<br>
+					磨きをかけることが可能となります<br>
+				</div>
+				<div class="column_three_headline fs20 fw_b">​
+					<h2 class = "HeadLine_h2 fs40">COMPANY</h2>
+					<p class = "HeadLine_p fs20">-社名の由来-</p>
+				</div>
+				<div class="column_border">​
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script>
+		$(function(){
+			$('.column_border').hover(
+				function(){
+					var i = $('.column_border').index(this);
+					$('.column_three_imgBox_text').eq(i).addClass('JS_opacity_trigger');
+				},
+				function(){
+					var i = $('.column_border').index(this);
+					$('.column_three_imgBox_text').eq(i).removeClass('JS_opacity_trigger');
+				}
+			);
+		});
+	</script>
+
+
+
+
+
+
+	<h1>4カラム</h1>
+	<div class="column_four mlr">
+		<div class="column_four_item">
+			<div class="column_four_item_imgWrap mb30">
+				<div class="column_four_item_img"></div>
+			</div>
+			<div class="column_four_item_text t_center">
+				​物事を<br>
+				成し遂げることが出来る<br>
+				考え方や心構えといった<br>
+				マインドスキル<br>
+			</div>
+		</div>
+
+		<div class="column_four_item">
+			<div class="column_four_item_imgWrap mb30">
+				<div class="column_four_item_img"></div>
+			</div>
+			<div class="column_four_item_text t_center">
+				​物事を<br>
+				成し遂げることが出来る<br>
+				考え方や心構えといった<br>
+				マインドスキル<br>
+			</div>
+		</div>
+		<div class="column_four_item">
+			<div class="column_four_item_imgWrap mb30">
+				<div class="column_four_item_img"></div>
+			</div>
+			<div class="column_four_item_text t_center">
+				​物事を<br>
+				成し遂げることが出来る<br>
+				考え方や心構えといった<br>
+				マインドスキル<br>
+			</div>
+		</div>
+		<div class="column_four_item">
+			<div class="column_four_item_imgWrap mb30">
+				<div class="column_four_item_img"></div>
+			</div>
+			<div class="column_four_item_text t_center">
+				​物事を<br>
+				成し遂げることが出来る<br>
+				考え方や心構えといった<br>
+				マインドスキル<br>
+			</div>
+		</div>
+	</div>
+
+	<h1>コンタクト</h1>
+	<div class = "contact_wrap mlr">
+		<div class = "HeadLine mb40 pl40">
+			<h2 class = "HeadLine_h2 fs40">タイトルタイトル</h2>
+			<p class = "HeadLine_p fs20">-　サブタイトル　-</p>
+		</div>
+		<p class = "fs22 t_center mb40 fw_b">ご相談、ご質問はお気軽にお問い合わせ下さい。</p>
+		<a href="" class = "i_block contact_btn mb30 mlr">メール</a>
+		<a href="" class = "i_block contact_btn mlr">LINE</a>
+	</div>
+
 </body>
 </html>
